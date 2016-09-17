@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">List</string>
+
+    <string name="title1">日付</string>
+    <string name="title2">対戦校</string>
+    <string name="title3">試合結果</string>
+    <string name="title4">備考</string>
+
+    <integer name="date1">20160811</integer>
+    <integer name="date2">20160912</integer>
+    <integer name="date3">20160924</integer>
+    <integer name="date4">20161030</integer>
+    <integer name="date5">20150930</integer>
+
+    <string name="school1">阿南高専</string>
+    <string name="school2">東京高専</string>
+    <string name="school3">高知高専</string>
+    <string name="school4">弓削商船</string>
+    <string name="school5">明石高専</string>
+
+    <string name="result1">22-9</string>
+    <string name="result2">47-58</string>
+    <string name="result3">32-14</string>
+    <string name="result4">34-53</string>
+    <string name="result5">64-23</string>
+
+    <string name="note1">ファイト</string>
+    <string name="note2">○○が骨折</string>
+    <string name="note3">大勝</string>
+    <string name="note4"></string>
+    <string name="note5">いい試合</string>
+
+
+</resources>

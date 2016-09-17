@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ExpandableListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exlist" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/sp_m"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp_s"
+                android:layout_marginBottom="@dimen/dp_s"
+                android:padding="@dimen/dp_m"
+                android:background="@color/title"
+                android:text="@string/title1"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/sp_m"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp_s"
+                android:layout_marginBottom="@dimen/dp_s"
+                android:padding="@dimen/dp_m"
+                android:background="@color/title"
+                android:text="@string/title2"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/sp_m"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/dp_s"
+                android:padding="@dimen/dp_m"
+                android:background="@color/title"
+                android:text="@string/title3"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/sp_m"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp_s"
+                android:layout_marginBottom="@dimen/dp_s"
+                android:padding="@dimen/dp_m"
+                android:background="@color/title"
+                android:text="@string/title4"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+            <ListView
+                android:id="@+id/android:list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
